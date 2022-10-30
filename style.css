@@ -1,0 +1,84 @@
+.mySlides {
+	display: none;
+	
+}
+
+body {
+	/*background: linear-gradient(to left, rgb(238, 105, 158), rgb(196, 6, 167)) right;*/
+	background-color: rgb(195, 170, 137);
+	font-family: Verdana, sans-serif;
+}
+
+.head {
+	margin-top: 20px;
+	margin-right: 10vw;
+	margin-left: 10vw;
+	text-align: center;
+	font-size: 30px;
+	background-color: #d8411f;
+	color: white;
+	border-radius: 19px;
+	font-weight: bolder;
+}
+
+.data-container {
+	width: 600px;
+	height: 384px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bar {
+	width: 28px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(30, 184, 178);
+	transition: 0.2s all ease;
+}
+
+.bar__id {
+	position: absolute;
+	top: -24px;
+	width: 100%;
+	text-align: center;
+}
+.btn1 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #0c77b5;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+	margin-left: 10vw;
+	margin-top: 4vw;
+	margin-right: 6vw;
+}
+.btn2 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #6f459e;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+}
+.btn3 {
+	padding: 12px;
+	font-weight: bolder;
+	background-Color: #6f459e;
+    border-radius: 10px;
+	color: white;
+	font-size:16px;
+	border: white;
+}
+.btn4 {
+	padding: 12px;
+	font-weight: bolder;
+	background-Color: #6f459e;
+	border-radius: 10px;
+	color:white;
+	font-size: 16px;
+	border: white;
+}

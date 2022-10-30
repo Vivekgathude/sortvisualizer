@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	
+	<!-- title -->
+	<title>Sorting Visualizer</title>
+
+	<!-- linking style.css -->
+	<link href="style.css" rel="stylesheet" />
+</head>
+
+<!-- body -->
+<body >
+<section class="head"> Sort Visualizer</section>
+<section class="data-container"></section>
+	
+<!-- "Generate New Array" button -->
+<button class="btn1" onclick="generate()" id="Button1" >
+	Generate New Bars</button>
+
+	
+<!-- "Selection Sort" button -->
+<button class="btn2"
+		onclick="SelectionSort(),disable()" id="Button2" >
+	Selection Sort</button>
+
+
+<!--"Bubble sort Button"-->
+<button class="btn3"
+        onclick="BubbleSort(),disable()" id="Button3" >
+	Bubble Sort</button>	
+
+
+<!--"Insertion sort Button"-->
+<button class="btn4"
+        onclick="InsertionSort(),disable()" id="Button4" >
+	Insertion Sort</button>
+
+
+</body>
+
+<!-- linking script.js -->
+<script src="script.js"></script>
+
+</html>
+
